@@ -8,8 +8,8 @@ namespace Lab_12
 {
     internal class Node
     {
-        BlueRayDisk current;
-        Node? next = null;
+        public BlueRayDisk current;
+        public Node? next = null;
         public Node(BlueRayDisk current) 
         {
             this.current = current;
